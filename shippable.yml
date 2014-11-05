@@ -10,6 +10,7 @@ services:
 # Installs tool used for code coverage report
 install:
   - go get code.google.com/p/go.tools/cmd/cover
+  - go get gopkg.in/yaml.v1
   - go get gopkg.in/unrolled/render.v1
 
 # Make folders for the reports
