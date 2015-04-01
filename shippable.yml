@@ -6,7 +6,7 @@ go:
 # Mongo binds to 127.0.0.1 by default
 services:
   - mongodb
-
+build_image: ubuntu1204_go
 # Installs tool used for code coverage report
 install:
   - go get code.google.com/p/go.tools/cmd/cover
